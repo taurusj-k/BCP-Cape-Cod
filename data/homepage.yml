@@ -1,0 +1,54 @@
+### Banner ###
+banner:
+  enable: true
+  image: #default is 'images/banner.jpg'
+  title: "Welcome to Cape Cod!"
+  content: "BCP Cape Cod is on the front line of Cape Cod Real Estate." # Change this if you want something other then the site description
+  buttons:
+    - title: "Contact Us"
+      link: "/contact/"
+      class: "alt"
+
+### Highlight ###
+highlight:
+  enable: true
+  header: "BCP Cape Cod Real Estate"
+  content: "BCP Cape Cod Real Estate is a division of Boston City Properties, one of the Boston area's leading real estate brokerages. Or local experts cover all areas of Cape Cod and can help you buy or sell the best property possible.  Our Cape Cod headquarters is located in Falmouth however our Cape Cod agents cover everywhere from the Bourne Bridge to Provincetown."
+  image: "images/banner_secondary.jpg"
+
+### Features ###
+features:
+  enable: true
+  rows:
+    - items:
+      - title: "Looking to buy?"
+        icon: "fa-home"
+        accent: "accent2" #accent values are 1-8
+        content: "Our buyer's agents are experts on locating and negotiating the best price possible."
+      - title: "Looking to sell?"
+        icon: "fa-warehouse"
+        accent: "accent3" #accent values are 1-8
+        content: "We have an unparalleled marketing & web presence to help sell your home fast"
+    - items:
+        - title: "Looking for commercial real estate?"
+          icon: "fa-building"
+          accent: "accent4" #accent values are 1-8
+          content: "We can help you lease or buy an office, retail, restaurant or industrial space throughout the Cape."
+        - title: "BCP Real Estate Group"
+          icon: "fa-users"
+          accent: "accent5" #accent values are 1-8
+          content: "BCP Cape Cod is a part of BCP Real Estate Group. We cover all of Massachusetts!"
+
+### Blog ###
+blog:
+  enable: false
+  # Leave header text blank to remove entire <section>
+  header: "Recent Posts"
+  buttonText: "Read More"
+  postCount: 2
+
+### Call to Action ###
+cta:
+  enable: true
+  header: "Sign up for our newsletter"
+  content: "We will let you know about our new listings, news and more!"

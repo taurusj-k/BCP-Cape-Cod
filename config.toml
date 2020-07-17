@@ -1,0 +1,57 @@
+baseURL = "https://taurusj-k.github.io"
+languageCode = "en-us"
+title = "BCP Cape Cod Real Estate"
+theme = "hugo-html5up-alpha"
+GoogleAnalytics = "UA-171826547-1"
+enableRobotsTXT = true
+canonifyURLs = true
+# and if you think your md file names or locations might change:
+[permalinks]
+    post = "/blog/:title/"
+
+[params]
+  description = "Best Real Estate group in the Cape Code area."
+  images = ["images/banner_secondary.jpg"]
+  ###author = "Iuliia Amodeo"
+  keywords = "real estate, cape cod, residential, commersial"
+  copyright = "© BCP Cape Cod, Inc. 2020"
+  ###design = "Designed by Stella & Sofie Art studio"
+  mainSections = ["blog"]
+
+### Footer Social Media Links ###
+[[params.share]]
+title = "facebook"
+icon = "fa-facebook-f" # fontawesome icons https://fontawesome.com/icons?d=gallery&s=brands
+link = "https://www.facebook.com/BostonCityProperties"
+
+[[params.share]]
+title = "instagram"
+icon = "fa-instagram"
+link = "https://www.instagram.com/bostoncityproperties/?hl=en"
+
+[[params.share]]
+title = "linkedin"
+icon = "fa-linkedin"
+link = "https://www.linkedin.com/company/boston-city-properties/"
+
+[[params.share]]
+title = "Yelp"
+icon = "fa-yelp"
+link = "https://www.yelp.com/biz/boston-city-properties-boston"
+
+### For Pages the .RelPermalink must match the menu .URL
+### For sections the name/directory must match the menu .Identifier
+
+[menu]
+
+  [[menu.main]]
+    identifier = "our_story"
+    name = "Our Story"
+    url = "/our_story/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "the_neighborhood"
+    name = "The Neighborhood "
+    url = "/the_neighborhood/"
+    weight = 20
