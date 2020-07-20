@@ -2,7 +2,7 @@
 Title: "Our Story"
 description: "Our story of BCP"
 draft: false
-image: "images/hero.png"
+image: "images/hero.jpg"
 ---
 
 ## We opened in 2007 in Boston.
