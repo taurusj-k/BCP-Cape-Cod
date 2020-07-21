@@ -11,7 +11,7 @@ canonifyURLs = true
 
 [params]
   description = "Best Real Estate group in the Cape Code area."
-  images = ["images/banner_secondary.jpg"]
+  images = ["images/banner_secondary.webp"]
   ###author = "Iuliia Amodeo"
   keywords = "real estate, cape cod, residential, commersial"
   copyright = "© BCP Cape Cod, Inc. 2020"
