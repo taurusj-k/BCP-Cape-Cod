@@ -2,7 +2,7 @@
 Title: "The Neighborhood"
 description: "BCP Real Estate in Cape Cod"
 draft: false
-image: 'images/neighborhood.jpg'
+image: 'images/neighborhood.webp'
 ---
 
 ### Cape Cod is charming!
