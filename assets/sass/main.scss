@@ -14,7 +14,7 @@
 */
 
 // BannerURL
-$bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner_blue.webp") }}";
+$bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner_blue.jpg") }}";
 
 // Breakpoints.
 
@@ -1920,7 +1920,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner_blue.
 		/* Banner */
 
 			#banner {
-				background-image:		url("{{ (.Site.Data.homepage.banner.image | default "images/banner_blue_mob.webp") }}");
+				background-image:		url("{{ (.Site.Data.homepage.banner.image | default "images/banner_blue_mob.jpg") }}");
 				padding: 4em 0;
 
 				h2 {
@@ -2084,7 +2084,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner_blue.
 		/* Banner */
 
 			#banner {
-				background-image:		url("{{ (.Site.Data.homepage.banner.image | default "images/banner_blue_mob.webp") }}");
+				background-image:		url("{{ (.Site.Data.homepage.banner.image | default "images/banner_blue_mob.jpg") }}");
 				padding: 5em 3em 4em 3em;
 			}
 
